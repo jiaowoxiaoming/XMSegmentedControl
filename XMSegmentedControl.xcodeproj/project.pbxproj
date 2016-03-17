@@ -15,6 +15,8 @@
 		1829622F1C9A3EB600255B63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1829622D1C9A3EB600255B63 /* LaunchScreen.storyboard */; };
 		1829623A1C9A3EB600255B63 /* XMSegmentedControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182962391C9A3EB600255B63 /* XMSegmentedControlTests.m */; };
 		182962451C9A3EB600255B63 /* XMSegmentedControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182962441C9A3EB600255B63 /* XMSegmentedControlUITests.m */; };
+		182962541C9A3EC600255B63 /* XMSegementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182962531C9A3EC600255B63 /* XMSegementView.m */; };
+		182962571C9A3F0C00255B63 /* UIColor+XMColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 182962561C9A3F0C00255B63 /* UIColor+XMColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		182962401C9A3EB600255B63 /* XMSegmentedControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMSegmentedControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182962441C9A3EB600255B63 /* XMSegmentedControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMSegmentedControlUITests.m; sourceTree = "<group>"; };
 		182962461C9A3EB600255B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182962521C9A3EC600255B63 /* XMSegementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMSegementView.h; sourceTree = "<group>"; };
+		182962531C9A3EC600255B63 /* XMSegementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMSegementView.m; sourceTree = "<group>"; };
+		182962551C9A3F0C00255B63 /* UIColor+XMColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XMColor.h"; sourceTree = "<group>"; };
+		182962561C9A3F0C00255B63 /* UIColor+XMColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XMColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		1829621E1C9A3EB600255B63 /* XMSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
+				182962551C9A3F0C00255B63 /* UIColor+XMColor.h */,
+				182962561C9A3F0C00255B63 /* UIColor+XMColor.m */,
+				182962521C9A3EC600255B63 /* XMSegementView.h */,
+				182962531C9A3EC600255B63 /* XMSegementView.m */,
 				182962221C9A3EB600255B63 /* AppDelegate.h */,
 				182962231C9A3EB600255B63 /* AppDelegate.m */,
 				182962251C9A3EB600255B63 /* ViewController.h */,
@@ -271,8 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				182962271C9A3EB600255B63 /* ViewController.m in Sources */,
+				182962571C9A3F0C00255B63 /* UIColor+XMColor.m in Sources */,
 				182962241C9A3EB600255B63 /* AppDelegate.m in Sources */,
 				182962211C9A3EB600255B63 /* main.m in Sources */,
+				182962541C9A3EC600255B63 /* XMSegementView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
